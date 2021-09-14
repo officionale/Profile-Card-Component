@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Kumbh Sans', sans-serif;
+     background-color: hsl(185, 75%, 39%);
+     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+     background-position: left -200vw top -90vh , right  -200vw bottom -130vh;
+     background-repeat: no-repeat,no-repeat;
+     font-size: 14px;
+}
+main{
+     height: 380px;
+     width: 90%;
+     margin: auto;
+     margin-top: 95px;
+}
+.topcontainer{
+     background-image: url(./images/bg-pattern-card.svg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     width: 100%;
+     height: 30%;
+     border-radius: 10px 10px 0 0;
+}
+.middlecontainer{
+     background-color: white;
+     height: 45%;
+     width: 100%;
+}
+.victor{
+     display: block;
+     color: hsl(229, 23%, 23%);
+     font-weight: 700;
+     text-align: center;
+     margin-top: -25px;
+     margin-bottom: 15px;
+}
+span{
+     color: hsl(0, 0%, 59%);
+     font-weight: 400;
+}
+p{
+     text-align: center;
+     color: hsl(0, 0%, 59%);
+     font-weight: 700;
+}
+.imgcontainer{
+     height: 120px;
+     width: 120px;
+     border-radius: 60px;
+     margin: auto;
+     position: relative;
+     top: -50px;
+     border: 5px solid white;
+}
+img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+}
+.bottomcontainer{
+     height: 25%;
+     width: 100%;
+     background-color: white;
+     border-top: solid .001rem hsl(0, 0%, 59%);
+     border-radius: 0 0 10px 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+h2{
+     text-align: center;
+     color: hsl(229, 23%, 23%);
+}
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     margin-top: 25px;
+}
+.attribution a {
+     text-decoration: none;
+     color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 450px){
+     body{
+          background-position: left -100vw top -90vh , right  -90vw bottom -130vh;
+     }
+     main{
+          width: 60%;
+     }
+}
+@media screen and (min-width: 750px){
+     body{
+          background-position: left -65vw top -85vh, right -65vw bottom -100vh;
+     }
+     main{
+          width: 50%;
+          height: 450px;
+     }
+}
+@media screen and (min-width: 1050px){
+     body{
+          background-position: left -25vw top -85vh, right -25vw bottom -100vh;
+     }
+     main{
+          width: 30%;
+          height: 450px;
+     }
+}
